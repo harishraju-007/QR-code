@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center; 
+      margin-top:50px;
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+    body{
+      background-color: aqua;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    img{
+      width:200px;
+      height:200px;
+      border-radius:10px;
+    }
+    #image{
+      display:flex;
+      flex-direction:column;
+      width:220px;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content:center;
+      padding:10px;
+    }
+    span{
+      font-size: large;
+      font-weight: 700;
+      
+    }
+    #light{
+      color:grey;
+      font-size: smaller;
+      
+    }
+    #backImg{
+      background-color: white;
+      width:220px;
+      padding:10px;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content:center;
+      border-radius:10px;
+      margin-top:50px;
+    }
+    #imgDes{
+      padding:10px;
+    }
+  </style>
+</head>
+<body>
+    <div id="backImg">
+      <div id="image">
+        <img src="images/image-qr-code.png">
+        <div id="imgDes">
+          <p><span>Improve your front-end skills by building projects</span></p>
+          <p id="light">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/harishraju-007" target="_blank">Harish Raju M R</a>.
+    </div>
+</body>
+</html>
